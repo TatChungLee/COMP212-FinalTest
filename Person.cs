@@ -26,7 +26,7 @@ namespace COMP212_FinalTest
             if(this.password != password)
             {
                 IsAuthenticated = false;
-                throw new AccountException(AccountEnum.PASSWORD_INCORRECT);
+                throw new AccountException(ExceptionEnum.PASSWORD_INCORRECT);
             }
             else
             {
